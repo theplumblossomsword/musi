@@ -12,6 +12,6 @@ class Config(object):
     CHANNEL = os.environ.get("CHANNEL", "rimurubotsupdates") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/599709741897bf71697a1.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/9cb323f8cc384c729d2fb.jpg")
-    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "RedeyeTempest")) # telegram I'd not Username
+    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "1131567642")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
     AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', None) # Change it to "True"
